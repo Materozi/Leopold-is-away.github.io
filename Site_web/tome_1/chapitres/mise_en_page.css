@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'titre';
+  src: url("../../../Site_web/titre.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+   font-family: 'texte';
+   src: url("../../../Site_web/texte.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background-color: black;
+}
+
+h1{
+	font-family: 'titre';
+	font-size: 15vw;
+	margin-top: -1%;
+	margin-bottom: -1%;
+	color: gold;
+	text-decoration:none;
+}
+
+img{
+	width: 25vw;
+	height: auto;
+}
+
+#fic{
+	font-family: 'texte';
+	font-size: 2vw;
+	color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-width: 20px;
+	border-color: #af8d78;
+	line-height: 250%;
+}
+
+.icon{
+	width: 10%;
+	float: left;
+	position: absolute;
+	margin-left: -11%;
+	margin-top: -4%;
+}
+
+.alg{
+	margin-left: 11%;
+}
+
+.ono{
+	font-size: 2.5vw;
+	text-align: center;
+}
+
+.illu{
+	width: 50%;
+	height: auto;
+	margin-left: 50%;
+	float: right;
+}
+
+#bas a{
+	font-family: 'texte';
+	position: absolute;
+	text-decoration:none;
+	color: #850606;
+	font-weight: bolder;
+  	font-size: 1.5vw;
+  	margin-top: 5%;
+  	margin-bottom: 10%;
+}
+
+#bas a:hover{
+	color: gold;
+}
+
+.avant{
+	left: 5%;
+}
+.retour{
+	right: 33%;
+}
+
+.suivant{
+	right: 5%;
+}

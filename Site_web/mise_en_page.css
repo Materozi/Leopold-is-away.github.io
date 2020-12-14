@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'titre';
+  src: url("titre.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'texte';
+  src: url("texte.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-image: url(fond.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+img{
+  width: 60%;
+}
+
+h1{
+  font-family: 'titre';
+  font-size: 750%;
+  margin-top: -1%;
+  margin-bottom: -2.5%;
+  color: gold;
+  text-decoration:none;
+  font-size: 10vw;
+}
+
+#tome_1{
+  width: 30%;
+  height: auto;
+  left: 5%;
+  position: absolute;
+}
+#tome_2{
+  width: 30%;
+  height: auto;
+  left: 35%;
+  position: absolute;
+}
+#tome_3{
+  width: 30%;
+  height: auto;
+  left: 65%;
+  right: 5%;
+  position: absolute;
+}
+
+.to_1, .to_2, .to_3, .ti_1, .ti_2, .ti_3{
+  text-align: center;
+  font-family: 'titre';
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #811453;
+}
+
+.to_1, .to_2, .to_3{
+  margin-bottom: -2.5%;
+  font-size: 10vw;
+  text-decoration:none;
+}
+ .ti_1, .ti_2, .ti_3{
+  font-size: 250%;
+  text-decoration:none;
+  text-align: center;
+  font-size: 4vw;
+}
+
+.to_1:hover, .to_2:hover, .to_3:hover, .ti_1:hover, .ti_2:hover, .ti_3:hover{
+	color: #9370DB;
+	filter: brightness(100%);
+}
+
+#bas{
+  margin-top: 60%;
+  font-family: 'texte';
+  font-size: 185%;
+  margin-bottom: 20%;
+}
+
+p{
+  margin-top: -17.5%;
+  font-size: 2.5vw;
+  color: red;
+}
+
+.crd{
+  text-decoration:none;
+  color: #811453;
+  list-style: none;
+  font-size: 5vw;
+}
+
+.crd:hover{
+  color: #9370DB;
+}

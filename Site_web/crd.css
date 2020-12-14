@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'titre';
+  src: url("titre.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'texte';
+  src: url("texte.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-image: url(crd.png);
+  background-position: center;
+  background-size: cover;
+}
+
+h1{
+  font-family: 'titre';
+  font-size: 750%;
+  margin-top: -1%;
+  margin-bottom: -2.5%;
+  color: gold;
+  text-decoration:none;
+  font-size: 10vw;
+}
+
+p{
+  font-size: 2.5vw;
+  color: purple;
+  font-family: 'texte';
+}
+
+.retour{
+  font-family: 'texte';
+  text-decoration:none;
+  color: #811453;
+  list-style: none;
+  font-size: 5vw;
+}
+
+.retour:hover{
+  color: #9370DB;
+}

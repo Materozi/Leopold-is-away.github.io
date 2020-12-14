@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'titre';
+  src: url("../titre.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+   font-family: 'texte';
+   src: url("../texte.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  background-image: url(fond.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#couv{
+	width: 25%;
+	vertical-align: center;
+}
+
+h1{
+	font-family: 'titre';
+	font-size: 10vw;
+	margin-top: -1%;
+	margin-bottom: -1%;
+	color: gold;
+	text-decoration:none;
+}
+
+a{
+  color: #850606;
+}
+a:hover{
+  color: gold;
+}
+
+#menu ul li{
+  list-style: none;
+}
+
+.chapitres li a{
+  font-family: 'texte';
+  font-size: 3vw;
+  text-decoration:none;
+  margin-left: 5%;
+  font-weight: bolder;
+}
+
+#bas{
+  margin-top: 5%;
+  font-family: 'texte';
+  font-size: 185%;
+}
+
+.retour{
+  text-decoration:none;
+  list-style: none;
+  font-size: 2.5vw;
+}
