@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'titre';
-  src: url("../../../Site_web/titre.otf");
+  src: url("titre.otf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
    font-family: 'texte';
-   src: url("../../../Site_web/texte.otf");
+   src: url("texte.otf");
     font-weight: normal;
     font-style: normal;
 }
