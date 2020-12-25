@@ -42,6 +42,13 @@ p{
 i{
   color: red;
 }
+u{
+  color: green;
+}
+
+.roles{
+  margin-left: 3vw;
+}
 
 .retour{
   font-family: 'texte';
